@@ -1,0 +1,40 @@
+.container {
+	margin: 0;
+}
+
+
+.MainHeader {
+	border-radius: 5px;
+	
+}
+
+.MainBody {
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+    margin: 0;
+    height: 900px;
+	padding: 2%;
+}
+
+p {
+	font-family: "arial";
+	font-size: 20px;
+}
+
+body {
+	background-color: #0033A0;
+}
+
+h1 {
+	color: white;
+	font-family: "arial";
+}
+
+a {
+	font-family: "arial";
+	font-size: 20px;
+	padding: 5%;
+	text-decoration: none;
+	color: white;
+}
