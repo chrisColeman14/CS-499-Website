@@ -1,19 +1,19 @@
-.container {
+#container {
 	margin: 0;
 }
 
 
-.MainHeader {
+#MainHeader {
 	border-radius: 5px;
-	
+
 }
 
-.MainBody {
+#MainBody {
 	background-color: white;
 	border-radius: 10px;
 	position: relative;
-    margin: 0;
-    height: 900px;
+  margin: 0;
+  height: 900px;
 	padding: 2%;
 }
 
@@ -37,4 +37,9 @@ a {
 	padding: 5%;
 	text-decoration: none;
 	color: white;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 20px;
 }
