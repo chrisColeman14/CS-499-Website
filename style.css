@@ -1,5 +1,16 @@
+iframe {
+	float: center;
+	border-radius: 3px;
+	border: 1px solid black;
+	padding: inherit;
+	background-color: grey;
+	width: 20%;
+	height: 80%;
+  margin: auto;
+}
+
 #container {
-	margin: 0;
+	margin: auto;
 }
 
 
@@ -12,7 +23,7 @@
 	background-color: white;
 	border-radius: 10px;
 	position: relative;
-  margin: 0;
+  margin: auto;
   height: 900px;
 	padding: 2%;
 }
