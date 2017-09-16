@@ -1,3 +1,12 @@
+.meeting {
+}
+
+.date, .topic, .time {
+	color: white;
+	background-color: purple;
+	font-weight: bold;
+}
+
 #content {
 	text-align: left;
 	float: center;
@@ -40,6 +49,7 @@
 
 html {
 		overflow-x: hidden;
+		font-family: "arial";
 }
 
 #chris, #taylor, #charles, #sam {
@@ -48,7 +58,22 @@ html {
 	border-radius: 8px;
 	background-color: blue;
 	color: white;
-	border: 2px solid gray;
+	border: 2px;
+}
+
+td {
+	border: 2px blue;
+	border-radius: 3px;
+	text-align: center;
+	width: 10%;
+	background-color: #d7dde5;
+	text-emphasis-style: double-circle;
+	font-size: 25px;
+}
+
+td:empty {
+	border: white;
+	background: white;
 }
 
 button:hover {
@@ -80,6 +105,10 @@ a {
 	padding: 5%;
 	text-decoration: none;
 	color: white;
+}.email {
+	color: blue;
+	display: inline;
+	padding: 0px;
 }
 
 ul {
