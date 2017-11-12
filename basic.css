@@ -9,13 +9,13 @@ html {
 }
 
 #container {
+	overflow-y: auto;
 	border: 3px solid black;
 	border-radius: 5px;
 	background-color: #c1e8f2;
 }
 
 #content {
-	overflow-y: auto;
 	top: 100;
 	text-align: left;
 	width: 100%;
