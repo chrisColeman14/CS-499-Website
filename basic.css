@@ -9,7 +9,6 @@ html {
 }
 
 #container {
-	overflow-y: auto;
 	border: 3px solid black;
 	border-radius: 5px;
 	background-color: #c1e8f2;
