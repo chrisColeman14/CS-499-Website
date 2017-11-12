@@ -15,6 +15,7 @@ html {
 }
 
 #content {
+	overflow-y: auto;
 	top: 100;
 	text-align: left;
 	width: 100%;
